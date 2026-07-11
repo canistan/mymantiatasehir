@@ -1,0 +1,5 @@
+## Güvenlik: Hassas Bilgilerin Korunması
+- **KESİN KURAL:** Kullanıcının sohbet sırasında paylaştığı şifreleri, API anahtarlarını, veritabanı bağlantı dizelerini (connection strings) veya diğer hassas bilgileri **ASLA** GitHub'a, herkese açık repolara veya başka bir online platforma yükleme.
+- **GEÇİCİ DOSYALAR KURALI:** Hızlı ilerlemek veya test yapmak için oluşturduğum geçici dosyalara (scriptler, test kodları vb.) kesinlikle hard-coded (doğrudan yazılmış) şifre ekleme. Eğer bir scriptin şifreye ihtiyacı varsa, bunu her zaman sadece git tarafından takip edilmeyen yerel bir `.env` dosyasından okuyacak şekilde (örn: `process.env.DB_PASS`) kodla.
+- Bu tür hassas veriler sadece yerel ortamda, `git` tarafından takip edilmeyen (örneğin `.env`, `.env.local` gibi `.gitignore` içine eklenmiş) dosyalarda tutulmalıdır. Herhangi bir git commit işlemi yapmadan önce, şifre içeren geçici dosyaların commite dahil edilmediğinden (veya silindiğinden) emin ol.
+- Teknik bir zorunluluk (örneğin Vercel environment variables ayarlama gibi güvenli bir işlem) olmadığı sürece bu bilgileri hiçbir yere gönderme ve loglama.
