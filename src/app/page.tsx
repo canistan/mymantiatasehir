@@ -40,7 +40,7 @@ export default function Home() {
               <div className="product-info">
                 <h3>Klasik Kayseri Mantısı</h3>
                 <p>İncecik hamuru, bol dana kıymalı iç harcıyla geleneksel lezzet. (Kiloluk veya porsiyonluk)</p>
-                <a href="https://wa.me/905349789859?text=Merhaba,%20Kayseri%20Mantısı%20siparişi%20vermek%20istiyorum." className="btn btn-secondary w-full" target="_blank" rel="noopener noreferrer">Teklif Al</a>
+                <a href="#teklif-al?product=Kayseri%20Mantısı" className="btn btn-secondary w-full">Teklif Al</a>
               </div>
             </div>
 
@@ -52,7 +52,7 @@ export default function Home() {
               <div className="product-info">
                 <h3>Zeytinyağlı Yaprak Sarma</h3>
                 <p>Tokat yaprağı ile hazırlanmış, kuş üzümlü ve fıstıklı nefis zeytinyağlı sarmamız.</p>
-                <a href="https://wa.me/905349789859?text=Merhaba,%20Yaprak%20Sarma%20siparişi%20vermek%20istiyorum." className="btn btn-secondary w-full" target="_blank" rel="noopener noreferrer">Teklif Al</a>
+                <a href="#teklif-al?product=Zeytinyağlı%20Yaprak%20Sarma" className="btn btn-secondary w-full">Teklif Al</a>
               </div>
             </div>
 
@@ -64,7 +64,7 @@ export default function Home() {
               <div className="product-info">
                 <h3>Kızartma İçli Köfte</h3>
                 <p>İncecik bulgur dış harcı ve bol cevizli, baharatlı iç harcıyla çıtır çıtır içli köfte.</p>
-                <a href="https://wa.me/905349789859?text=Merhaba,%20İçli%20Köfte%20siparişi%20vermek%20istiyorum." className="btn btn-secondary w-full" target="_blank" rel="noopener noreferrer">Teklif Al</a>
+                <a href="#teklif-al?product=İçli%20Köfte" className="btn btn-secondary w-full">Teklif Al</a>
               </div>
             </div>
           </div>

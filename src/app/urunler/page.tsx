@@ -25,7 +25,7 @@ export default function Urunler() {
               <div className="product-info">
                 <h3>Kayseri Mantısı</h3>
                 <p>İncecik hamur, bol dana kıymalı iç harç. Klasik ve vazgeçilmez lezzet.</p>
-                <a href="https://wa.me/905349789859?text=Merhaba,%20Kayseri%20Mantısı%20siparişi%20vermek%20istiyorum." className="btn btn-primary w-full" target="_blank" rel="noopener noreferrer">Teklif Al</a>
+                <a href="#teklif-al?product=Kayseri%20Mantısı" className="btn btn-primary w-full">Teklif Al</a>
               </div>
             </div>
 
@@ -36,7 +36,7 @@ export default function Urunler() {
               <div className="product-info">
                 <h3>Sinop Mantısı</h3>
                 <p>Cevizli ve tereyağlı özel sunumuyla, kulak şeklinde bükülen yöresel lezzet.</p>
-                <a href="https://wa.me/905349789859?text=Merhaba,%20Sinop%20Mantısı%20siparişi%20vermek%20istiyorum." className="btn btn-primary w-full" target="_blank" rel="noopener noreferrer">Teklif Al</a>
+                <a href="#teklif-al?product=Sinop%20Mantısı" className="btn btn-primary w-full">Teklif Al</a>
               </div>
             </div>
 
@@ -47,7 +47,7 @@ export default function Urunler() {
               <div className="product-info">
                 <h3>Çıtır Mantı</h3>
                 <p>Kızartılarak hazırlanan, sarımsaklı yoğurtla mükemmel uyum sağlayan çıtır lezzet.</p>
-                <a href="https://wa.me/905349789859?text=Merhaba,%20Çıtır%20Mantı%20siparişi%20vermek%20istiyorum." className="btn btn-primary w-full" target="_blank" rel="noopener noreferrer">Teklif Al</a>
+                <a href="#teklif-al?product=Çıtır%20Mantı" className="btn btn-primary w-full">Teklif Al</a>
               </div>
             </div>
 
@@ -59,7 +59,7 @@ export default function Urunler() {
               <div className="product-info">
                 <h3>Zeytinyağlı Yaprak Sarma</h3>
                 <p>Özenle seçilmiş Tokat yaprağı, bol baharatlı ve kuş üzümlü iç harcıyla.</p>
-                <a href="https://wa.me/905349789859?text=Merhaba,%20Yaprak%20Sarma%20siparişi%20vermek%20istiyorum." className="btn btn-secondary w-full" target="_blank" rel="noopener noreferrer">Teklif Al</a>
+                <a href="#teklif-al?product=Yaprak%20Sarma" className="btn btn-secondary w-full">Teklif Al</a>
               </div>
             </div>
 
@@ -70,7 +70,7 @@ export default function Urunler() {
               <div className="product-info">
                 <h3>Mercimek Köftesi</h3>
                 <p>Taze yeşilliklerle hazırlanmış, tam kıvamında anne usulü mercimek köftesi.</p>
-                <a href="https://wa.me/905349789859?text=Merhaba,%20Mercimek%20Köftesi%20siparişi%20vermek%20istiyorum." className="btn btn-secondary w-full" target="_blank" rel="noopener noreferrer">Teklif Al</a>
+                <a href="#teklif-al?product=Mercimek%20Köftesi" className="btn btn-secondary w-full">Teklif Al</a>
               </div>
             </div>
 
@@ -81,7 +81,7 @@ export default function Urunler() {
               <div className="product-info">
                 <h3>Çi Börek</h3>
                 <p>İçindeki sulu kıyması ve incecik kızarmış hamuruyla efsanevi Tatar lezzeti.</p>
-                <a href="https://wa.me/905349789859?text=Merhaba,%20Çi%20Börek%20siparişi%20vermek%20istiyorum." className="btn btn-secondary w-full" target="_blank" rel="noopener noreferrer">Teklif Al</a>
+                <a href="#teklif-al?product=Çi%20Börek" className="btn btn-secondary w-full">Teklif Al</a>
               </div>
             </div>
 
@@ -93,7 +93,7 @@ export default function Urunler() {
               <div className="product-info">
                 <h3>Haşlama İçli Köfte</h3>
                 <p>Daha hafif bir seçenek arayanlar için incecik bulgur hamuruyla haşlanmış içli köfte.</p>
-                <a href="https://wa.me/905349789859?text=Merhaba,%20Haşlama%20İçli%20Köfte%20siparişi%20vermek%20istiyorum." className="btn btn-outline w-full" target="_blank" rel="noopener noreferrer">Teklif Al</a>
+                <a href="#teklif-al?product=Haşlama%20İçli%20Köfte" className="btn btn-outline w-full">Teklif Al</a>
               </div>
             </div>
 
@@ -104,7 +104,7 @@ export default function Urunler() {
               <div className="product-info">
                 <h3>Kızartma İçli Köfte</h3>
                 <p>Bol cevizli dış harcıyla çıtır çıtır kızartılmış yöresel içli köftemiz.</p>
-                <a href="https://wa.me/905349789859?text=Merhaba,%20Kızartma%20İçli%20Köfte%20siparişi%20vermek%20istiyorum." className="btn btn-outline w-full" target="_blank" rel="noopener noreferrer">Teklif Al</a>
+                <a href="#teklif-al?product=Kızartma%20İçli%20Köfte" className="btn btn-outline w-full">Teklif Al</a>
               </div>
             </div>
 
@@ -115,7 +115,7 @@ export default function Urunler() {
               <div className="product-info">
                 <h3>Paçanga & Sigara Böreği</h3>
                 <p>Bol pastırmalı kaşarlı paçanga böreği ve çıtır çıtır peynirli sigara böreği seçenekleri.</p>
-                <a href="https://wa.me/905349789859?text=Merhaba,%20Börek%20siparişi%20vermek%20istiyorum." className="btn btn-outline w-full" target="_blank" rel="noopener noreferrer">Teklif Al</a>
+                <a href="#teklif-al?product=Börek%20Çeşitleri" className="btn btn-outline w-full">Teklif Al</a>
               </div>
             </div>
           </div>
