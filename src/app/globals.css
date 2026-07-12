@@ -401,7 +401,7 @@ h4 { font-size: 1.1rem; }
 /* --- Product Grid (E-ticaret Stili) --- */
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: var(--card-gap);
 }
 
@@ -992,7 +992,7 @@ h4 { font-size: 1.1rem; }
 
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
 
-  .products-grid { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+  .products-grid { grid-template-columns: repeat(2, 1fr); }
 
   .blog-grid { grid-template-columns: 1fr; }
 
