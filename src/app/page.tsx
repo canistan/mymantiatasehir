@@ -44,7 +44,7 @@ export default function Home() {
           <div className="products-grid">
             <div className="product-card">
               <div className="product-img">
-                <img src="/images/kayseri_manti.png" alt="Kayseri Mantısı" loading="lazy" />
+                <img src="https://oihkz1j4leutrndm.public.blob.vercel-storage.com/mymanti/kayseri_manti.png" alt="Kayseri Mantısı" loading="lazy" />
               </div>
               <div className="product-body">
                 <h3>Kayseri Mantısı</h3>
@@ -55,7 +55,7 @@ export default function Home() {
 
             <div className="product-card">
               <div className="product-img">
-                <img src="/images/yaprak_sarma.png" alt="Zeytinyağlı Yaprak Sarma" loading="lazy" />
+                <img src="https://oihkz1j4leutrndm.public.blob.vercel-storage.com/mymanti/yaprak_sarma.png" alt="Zeytinyağlı Yaprak Sarma" loading="lazy" />
               </div>
               <div className="product-body">
                 <h3>Zeytinyağlı Yaprak Sarma</h3>
@@ -66,7 +66,7 @@ export default function Home() {
 
             <div className="product-card">
               <div className="product-img">
-                <img src="/images/icli_kofte.png" alt="Kızartma İçli Köfte" loading="lazy" />
+                <img src="https://oihkz1j4leutrndm.public.blob.vercel-storage.com/mymanti/icli_kofte.png" alt="Kızartma İçli Köfte" loading="lazy" />
               </div>
               <div className="product-body">
                 <h3>Kızartma İçli Köfte</h3>
@@ -77,7 +77,7 @@ export default function Home() {
 
             <div className="product-card">
               <div className="product-img">
-                <img src="/images/sinop_mantisi.png" alt="Sinop Mantısı" loading="lazy" />
+                <img src="https://oihkz1j4leutrndm.public.blob.vercel-storage.com/mymanti/sinop_mantisi.png" alt="Sinop Mantısı" loading="lazy" />
               </div>
               <div className="product-body">
                 <h3>Sinop Mantısı</h3>
@@ -88,7 +88,7 @@ export default function Home() {
 
             <div className="product-card">
               <div className="product-img">
-                <img src="/images/ci_borek.png" alt="Çi Börek" loading="lazy" />
+                <img src="https://oihkz1j4leutrndm.public.blob.vercel-storage.com/mymanti/ci_borek.png" alt="Çi Börek" loading="lazy" />
               </div>
               <div className="product-body">
                 <h3>Çi Börek</h3>
@@ -99,7 +99,7 @@ export default function Home() {
 
             <div className="product-card">
               <div className="product-img">
-                <img src="/images/sigara_boregi.png" alt="Sigara Böreği" loading="lazy" />
+                <img src="https://oihkz1j4leutrndm.public.blob.vercel-storage.com/mymanti/sigara_boregi.png" alt="Sigara Böreği" loading="lazy" />
               </div>
               <div className="product-body">
                 <h3>Sigara Böreği</h3>
@@ -157,7 +157,7 @@ export default function Home() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '40px', alignItems: 'center' }}>
             <div>
               <img 
-                src="/images/catering_sofrasi.png" 
+                src="https://oihkz1j4leutrndm.public.blob.vercel-storage.com/mymanti/catering_sofrasi.png" 
                 alt="My Mantı Catering Sofrası" 
                 style={{ width: '100%', borderRadius: 'var(--radius-lg)', boxShadow: 'var(--shadow-md)', aspectRatio: '4/3', objectFit: 'cover' }} 
               />
