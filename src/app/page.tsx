@@ -43,8 +43,8 @@ export default function Home() {
 
           <div className="products-grid">
             <div className="product-card">
-              <div className="product-img placeholder-img">
-                <span>Kayseri Mantısı</span>
+              <div className="product-img">
+                <img src="/images/kayseri_manti.png" alt="Kayseri Mantısı" loading="lazy" />
               </div>
               <div className="product-body">
                 <h3>Kayseri Mantısı</h3>
@@ -54,8 +54,8 @@ export default function Home() {
             </div>
 
             <div className="product-card">
-              <div className="product-img placeholder-img">
-                <span>Yaprak Sarma</span>
+              <div className="product-img">
+                <img src="/images/yaprak_sarma.png" alt="Zeytinyağlı Yaprak Sarma" loading="lazy" />
               </div>
               <div className="product-body">
                 <h3>Zeytinyağlı Yaprak Sarma</h3>
@@ -65,13 +65,46 @@ export default function Home() {
             </div>
 
             <div className="product-card">
-              <div className="product-img placeholder-img">
-                <span>İçli Köfte</span>
+              <div className="product-img">
+                <img src="/images/icli_kofte.png" alt="Kızartma İçli Köfte" loading="lazy" />
               </div>
               <div className="product-body">
                 <h3>Kızartma İçli Köfte</h3>
                 <p>İncecik bulgur dış kabuğu, cevizli ve baharatlı et harcıyla doldurulup çıtır çıtır kızartılır.</p>
                 <a href="#teklif-al?product=İçli%20Köfte" className="btn btn-primary w-full">Teklif Al</a>
+              </div>
+            </div>
+
+            <div className="product-card">
+              <div className="product-img">
+                <img src="/images/sinop_mantisi.png" alt="Sinop Mantısı" loading="lazy" />
+              </div>
+              <div className="product-body">
+                <h3>Sinop Mantısı</h3>
+                <p>Cevizli ve tereyağlı özel sunumuyla, kulak şeklinde bükülen Karadeniz yöresi mantısı.</p>
+                <a href="#teklif-al?product=Sinop%20Mantısı" className="btn btn-primary w-full">Teklif Al</a>
+              </div>
+            </div>
+
+            <div className="product-card">
+              <div className="product-img">
+                <img src="/images/ci_borek.png" alt="Çi Börek" loading="lazy" />
+              </div>
+              <div className="product-body">
+                <h3>Çi Börek</h3>
+                <p>İçindeki sulu kıyması ve incecik kızarmış hamuruyla hazırlanan geleneksel Tatar lezzeti.</p>
+                <a href="#teklif-al?product=Çi%20Börek" className="btn btn-primary w-full">Teklif Al</a>
+              </div>
+            </div>
+
+            <div className="product-card">
+              <div className="product-img">
+                <img src="/images/sigara_boregi.png" alt="Sigara Böreği" loading="lazy" />
+              </div>
+              <div className="product-body">
+                <h3>Sigara Böreği</h3>
+                <p>İnce yufkaya sarılmış peynirli harçla hazırlanan, çıtır dışlı klasik sigara böreği.</p>
+                <a href="#teklif-al?product=Sigara%20Böreği" className="btn btn-primary w-full">Teklif Al</a>
               </div>
             </div>
           </div>
@@ -121,24 +154,42 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="services-grid">
-            <div className="service-card">
-              <div className="service-icon">🎂</div>
-              <h3>Doğum Günleri</h3>
-              <p>Çocuklarınız ve sevdikleriniz için sağlıklı, ev yapımı ikramlıklar.</p>
-              <a href="/organizasyonlar" className="btn btn-ghost">Detaylar</a>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '40px', alignItems: 'center' }}>
+            <div>
+              <img 
+                src="/images/catering_sofrasi.png" 
+                alt="My Mantı Catering Sofrası" 
+                style={{ width: '100%', borderRadius: 'var(--radius-lg)', boxShadow: 'var(--shadow-md)', aspectRatio: '4/3', objectFit: 'cover' }} 
+              />
             </div>
-            <div className="service-card">
-              <div className="service-icon">💍</div>
-              <h3>Nişan & Söz</h3>
-              <p>Misafirlerinize ikram edebileceğiniz zarif ve lezzetli tabaklar.</p>
-              <a href="/organizasyonlar" className="btn btn-ghost">Detaylar</a>
-            </div>
-            <div className="service-card">
-              <div className="service-icon">🏢</div>
-              <h3>Kurumsal</h3>
-              <p>Şirket etkinlikleri, toplantılar ve personel yemekleri için özel menüler.</p>
-              <a href="/organizasyonlar" className="btn btn-ghost">Detaylar</a>
+            
+            <div className="services-grid" style={{ gridTemplateColumns: '1fr', gap: '16px' }}>
+              <div className="service-card" style={{ padding: '20px', textAlign: 'left', display: 'flex', gap: '20px', alignItems: 'flex-start' }}>
+                <div className="service-icon" style={{ marginBottom: 0, fontSize: '2.5rem' }}>🎂</div>
+                <div>
+                  <h3 style={{ marginBottom: '8px' }}>Doğum Günleri</h3>
+                  <p style={{ marginBottom: '12px' }}>Çocuklarınız ve sevdikleriniz için sağlıklı, ev yapımı ikramlıklar.</p>
+                  <a href="/organizasyonlar" className="btn btn-ghost" style={{ padding: 0 }}>Detaylar</a>
+                </div>
+              </div>
+
+              <div className="service-card" style={{ padding: '20px', textAlign: 'left', display: 'flex', gap: '20px', alignItems: 'flex-start' }}>
+                <div className="service-icon" style={{ marginBottom: 0, fontSize: '2.5rem' }}>💍</div>
+                <div>
+                  <h3 style={{ marginBottom: '8px' }}>Nişan & Söz</h3>
+                  <p style={{ marginBottom: '12px' }}>Misafirlerinize ikram edebileceğiniz zarif ve lezzetli tabaklar.</p>
+                  <a href="/organizasyonlar" className="btn btn-ghost" style={{ padding: 0 }}>Detaylar</a>
+                </div>
+              </div>
+
+              <div className="service-card" style={{ padding: '20px', textAlign: 'left', display: 'flex', gap: '20px', alignItems: 'flex-start' }}>
+                <div className="service-icon" style={{ marginBottom: 0, fontSize: '2.5rem' }}>🏢</div>
+                <div>
+                  <h3 style={{ marginBottom: '8px' }}>Kurumsal</h3>
+                  <p style={{ marginBottom: '12px' }}>Şirket etkinlikleri, toplantılar ve personel yemekleri için özel menüler.</p>
+                  <a href="/organizasyonlar" className="btn btn-ghost" style={{ padding: 0 }}>Detaylar</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
